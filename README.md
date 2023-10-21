@@ -96,10 +96,14 @@ CH224K pd;
 
 void setup() {
   pd.begin();         // Uses default pin numbers (GPIO 36, 35, 45 for the CFG pins, and GPIO 37 for the power good pin)
-  pd.setVoltage(12);
+  pd.setVoltageSetPoint(V12);
 
-  if (pd.isPowerGood()) {
-    // Do something
+  // Give the power supply time to adjust to the new voltage
+  delay(300);
+
+  // Wait for the power good signal to go high
+  while (!pd.powerGood()) {
+    delay(100);
   }
 }
 ```
