@@ -47,7 +47,7 @@ The ESPPD features two USB-C controllers; one is used to provide power, and the 
 There bottom of the board features a set of four jumpers that can be used to determine how the board interfaces with the PD controller. The first three jumpers, CFG1 through 3, can be used to either hardwire the PD controller to request a specific voltage, or to allow the ESP32 to dynamically request a voltage via firmware. By default, the jumpers are all set so that CFG1 is high, and CFG2 and 3 are low. This corresponds to the PD controller being hardwired to request 5V. If you with to hardware the PD controller to request a different voltage, you can selective short the jumpers as follows:
 
 | CFG1             | CFG2             | CFG3             | Requested voltage|
-+---+---+---+---+
+| --- | --- | --- | --- |
 | High             | Low              | Low              | 5V               |
 | Low              | High             | Low              | 9V               |
 | High             | High             | Low              | 12V              |
