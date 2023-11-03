@@ -1,5 +1,7 @@
 # ESPPD: a ESP32-S3 board with built-in USB-C PD controller
 
+![ESPPD](https://github.com/T76-org/esppd/wiki/img/esppd_small.png)
+
 ESPPD is an ESP32-S3 breakout board that incorporates the ability to interface with a USB-C PD-compatible power supply to request a specific voltage. It features:
 
 - Hacker-friendly design
