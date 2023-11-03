@@ -39,6 +39,8 @@ The board is compatible with the [ESP32-S3-WROOM-1](https://www.espressif.com/si
 
 ![Pinout](https://github.com/T76-org/esppd/wiki/img/pinout.png)
 
+For additional information on the features associated with each pin, you can consult [Espressif's ESP32-S3 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf).
+
 ## Further reading
 
 For more information on how to build and upload your code to the board, interact with a USB-PD power supply, and troubleshoot any problems, see the [wiki](https://github.com/T76-org/esppd/wiki).
