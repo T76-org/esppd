@@ -35,7 +35,7 @@ The board is compatible with the [ESP32-S3-WROOM-1](https://www.espressif.com/si
 
 ## Pinout
 
-[[https://github.com/T76-org/esppd/wiki/img/pinout.png]]
+![Pinout](https://github.com/T76-org/esppd/wiki/img/pinout.png)
 
 ## Further reading
 
